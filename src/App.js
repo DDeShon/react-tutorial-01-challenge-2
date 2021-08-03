@@ -21,7 +21,7 @@ function App() {
   }, [reqType]);
   return (
     <div className="App">
-      <form reqType={reqType} setReqType={setReqType} />
+      <Form reqType={reqType} setReqType={setReqType} />
     </div>
   );
 }
